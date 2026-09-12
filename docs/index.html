@@ -239,9 +239,9 @@
         <span><span class="swatch" style="background:#f59e0b"></span> pipeline output (prediction)</span>
       </div>
       <div class="fretboard-label">Ground truth</div>
-      <canvas id="fretboard-ref" height="120"></canvas>
+      <canvas id="fretboard-ref" height="240"></canvas>
       <div class="fretboard-label">Pipeline output</div>
-      <canvas id="fretboard-pred" height="120"></canvas>
+      <canvas id="fretboard-pred" height="240"></canvas>
       <audio id="audio" src="assets/demo-clip.mp3" preload="auto"></audio>
       <p class="caption">Source clip: one of my own held-out eval recordings (never trained on). Notes rendered directly from the JSON this pipeline actually outputs — <a href="assets/demo-notes.json">raw data →</a></p>
     </div>
@@ -313,14 +313,14 @@
       function resize() {
         const dpr = window.devicePixelRatio || 1;
         canvas.width = canvas.clientWidth * dpr;
-        canvas.height = 120 * dpr;
+        canvas.height = 240 * dpr;
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       }
       resize();
       window.addEventListener('resize', resize);
 
       function draw(t) {
-        const w = canvas.clientWidth, h = 120;
+        const w = canvas.clientWidth, h = 240;
         ctx.clearRect(0, 0, w, h);
         const rowH = h / 6;
         // string lines
