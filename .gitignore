@@ -27,6 +27,9 @@ build/
 *.mov
 *.flac
 
+# Exception: small MIT-licensed GuitarSet demo clip for the Pages site
+!docs/assets/demo-clip.mp3
+
 # Model weights
 models/
 *.pt
