@@ -348,9 +348,9 @@
           const y = rowH * (n.string - 1) + rowH / 2 + laneOffset;
           const active = t >= n.start && t <= n.end;
           ctx.fillStyle = active ? color : color + '55';
-          const bw = Math.max(x1 - x0, 20);
+          const bw = Math.max(x1 - x0 - 2, 18);
           ctx.beginPath();
-          ctx.roundRect ? ctx.roundRect(x0, y - boxH / 2, bw, boxH, 4) : ctx.rect(x0, y - boxH / 2, bw, boxH);
+          ctx.roundRect ? ctx.roundRect(x0 + 1, y - boxH / 2, bw, boxH - 2, 4) : ctx.rect(x0 + 1, y - boxH / 2, bw, boxH - 2);
           ctx.fill();
           ctx.fillStyle = active ? '#06110b' : '#0007';
           ctx.font = 'bold 10px monospace';
