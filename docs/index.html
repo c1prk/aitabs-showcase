@@ -239,9 +239,9 @@
         <span><span class="swatch" style="background:#f59e0b"></span> pipeline output (prediction)</span>
       </div>
       <div class="fretboard-label">Ground truth</div>
-      <canvas id="fretboard-ref" height="90"></canvas>
+      <canvas id="fretboard-ref" height="120"></canvas>
       <div class="fretboard-label">Pipeline output</div>
-      <canvas id="fretboard-pred" height="90"></canvas>
+      <canvas id="fretboard-pred" height="120"></canvas>
       <audio id="audio" src="assets/demo-clip.mp3" preload="auto"></audio>
       <p class="caption">Source clip: GuitarSet <code>00_BN3-119-G_solo</code> (MIT license). Notes rendered directly from the JSON this pipeline actually outputs — <a href="assets/demo-notes.json">raw data →</a></p>
     </div>
@@ -288,20 +288,40 @@
     const scrubFill = document.getElementById('scrubFill');
     const timeLabel = document.getElementById('timeLabel');
 
+    function assignLanes(notes) {
+      // Greedy interval-partition per string: overlapping notes get stacked into sub-lanes.
+      const byString = {};
+      notes.forEach(n => { (byString[n.string] = byString[n.string] || []).push(n); });
+      let maxLanes = 1;
+      Object.values(byString).forEach(list => {
+        list.sort((a, b) => a.start - b.start);
+        const laneEnds = [];
+        list.forEach(n => {
+          let lane = laneEnds.findIndex(end => n.start >= end - 0.02);
+          if (lane === -1) { lane = laneEnds.length; laneEnds.push(n.end); }
+          else { laneEnds[lane] = n.end; }
+          n._lane = lane;
+        });
+        maxLanes = Math.max(maxLanes, laneEnds.length);
+      });
+      return maxLanes;
+    }
+
     function makeBoard(canvasId, notes, color) {
       const canvas = document.getElementById(canvasId);
       const ctx = canvas.getContext('2d');
+      const lanes = Math.min(assignLanes(notes), 3);
       function resize() {
         const dpr = window.devicePixelRatio || 1;
         canvas.width = canvas.clientWidth * dpr;
-        canvas.height = 90 * dpr;
+        canvas.height = 120 * dpr;
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       }
       resize();
       window.addEventListener('resize', resize);
 
       function draw(t) {
-        const w = canvas.clientWidth, h = 90;
+        const w = canvas.clientWidth, h = 120;
         ctx.clearRect(0, 0, w, h);
         const rowH = h / 6;
         // string lines
@@ -319,19 +339,22 @@
         ctx.strokeStyle = '#ffffff55';
         ctx.beginPath(); ctx.moveTo(px, 0); ctx.lineTo(px, h); ctx.stroke();
 
-        // notes
+        // notes (stacked into sub-lanes so overlapping notes on one string don't collide)
+        const boxH = Math.min(18, (rowH - 4) / lanes);
         notes.forEach(n => {
           const x0 = 36 + (n.start / CLIP_SECONDS) * (w - 40);
           const x1 = 36 + (n.end / CLIP_SECONDS) * (w - 40);
-          const y = rowH * (n.string - 1) + rowH / 2;
+          const laneOffset = ((n._lane || 0) - (lanes - 1) / 2) * (boxH + 2);
+          const y = rowH * (n.string - 1) + rowH / 2 + laneOffset;
           const active = t >= n.start && t <= n.end;
           ctx.fillStyle = active ? color : color + '55';
+          const bw = Math.max(x1 - x0, 20);
           ctx.beginPath();
-          ctx.roundRect ? ctx.roundRect(x0, y - 9, Math.max(x1 - x0, 18), 18, 5) : ctx.rect(x0, y - 9, Math.max(x1 - x0, 18), 18);
+          ctx.roundRect ? ctx.roundRect(x0, y - boxH / 2, bw, boxH, 4) : ctx.rect(x0, y - boxH / 2, bw, boxH);
           ctx.fill();
-          ctx.fillStyle = active ? '#06110b' : '#0006';
-          ctx.font = 'bold 11px monospace';
-          ctx.fillText(String(n.fret), x0 + 5, y + 4);
+          ctx.fillStyle = active ? '#06110b' : '#0007';
+          ctx.font = 'bold 10px monospace';
+          ctx.fillText(String(n.fret), x0 + 5, y + 3.5);
         });
       }
       return { draw };
