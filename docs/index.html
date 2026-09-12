@@ -339,18 +339,20 @@
         ctx.strokeStyle = '#ffffff55';
         ctx.beginPath(); ctx.moveTo(px, 0); ctx.lineTo(px, h); ctx.stroke();
 
-        // notes (stacked into sub-lanes so overlapping notes on one string don't collide)
+        // notes (stacked into sub-lanes so overlapping notes on one string don't collide).
+        // Every note draws as the same fixed-size marker at its onset — duration isn't
+        // encoded visually, so a long sustained guess never reads as "more note" than
+        // a short one, and reference/prediction stay visually comparable.
         const boxH = Math.min(18, (rowH - 4) / lanes);
+        const BOX_W = 22;
         notes.forEach(n => {
           const x0 = 36 + (n.start / CLIP_SECONDS) * (w - 40);
-          const x1 = 36 + (n.end / CLIP_SECONDS) * (w - 40);
           const laneOffset = ((n._lane || 0) - (lanes - 1) / 2) * (boxH + 2);
           const y = rowH * (n.string - 1) + rowH / 2 + laneOffset;
           const active = t >= n.start && t <= n.end;
           ctx.fillStyle = active ? color : color + '55';
-          const bw = Math.max(x1 - x0 - 2, 18);
           ctx.beginPath();
-          ctx.roundRect ? ctx.roundRect(x0 + 1, y - boxH / 2, bw, boxH - 2, 4) : ctx.rect(x0 + 1, y - boxH / 2, bw, boxH - 2);
+          ctx.roundRect ? ctx.roundRect(x0, y - boxH / 2, BOX_W, boxH - 2, 4) : ctx.rect(x0, y - boxH / 2, BOX_W, boxH - 2);
           ctx.fill();
           ctx.fillStyle = active ? '#06110b' : '#0007';
           ctx.font = 'bold 10px monospace';
