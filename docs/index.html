@@ -232,7 +232,7 @@
           <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
         </button>
         <div class="scrub" id="scrub"><div class="scrub-fill" id="scrubFill"></div></div>
-        <div class="time" id="timeLabel">0:00 / 0:07</div>
+        <div class="time" id="timeLabel">0:00 / 0:08</div>
       </div>
       <div class="legend">
         <span><span class="swatch" style="background:#6ee7b7"></span> ground truth (reference)</span>
@@ -243,7 +243,7 @@
       <div class="fretboard-label">Pipeline output</div>
       <canvas id="fretboard-pred" height="120"></canvas>
       <audio id="audio" src="assets/demo-clip.mp3" preload="auto"></audio>
-      <p class="caption">Source clip: GuitarSet <code>00_BN3-119-G_solo</code> (MIT license). Notes rendered directly from the JSON this pipeline actually outputs — <a href="assets/demo-notes.json">raw data →</a></p>
+      <p class="caption">Source clip: one of my own held-out eval recordings (never trained on). Notes rendered directly from the JSON this pipeline actually outputs — <a href="assets/demo-notes.json">raw data →</a></p>
     </div>
   </section>
 
@@ -276,7 +276,7 @@
 
   // ---- Live fretboard demo ----
   const STRING_NAMES = ["e", "B", "G", "D", "A", "E"]; // string 1..6
-  const CLIP_SECONDS = 7;
+  const CLIP_SECONDS = 8;
 
   async function initDemo() {
     const res = await fetch('assets/demo-notes.json');
@@ -374,7 +374,7 @@
       boardPred.draw(t);
       const pct = (t / CLIP_SECONDS) * 100;
       scrubFill.style.width = pct + '%';
-      timeLabel.textContent = fmt(t) + ' / 0:07';
+      timeLabel.textContent = fmt(t) + ' / 0:08';
     }
 
     audio.addEventListener('timeupdate', render);
