@@ -307,10 +307,9 @@
       return maxLanes;
     }
 
-    function makeBoard(canvasId, notes, color) {
+    function makeBoard(canvasId, notes, color, lanes) {
       const canvas = document.getElementById(canvasId);
       const ctx = canvas.getContext('2d');
-      const lanes = Math.min(assignLanes(notes), 3);
       function resize() {
         const dpr = window.devicePixelRatio || 1;
         canvas.width = canvas.clientWidth * dpr;
@@ -362,8 +361,11 @@
       return { draw };
     }
 
-    const boardRef = makeBoard('fretboard-ref', data.reference, '#6ee7b7');
-    const boardPred = makeBoard('fretboard-pred', data.prediction, '#f59e0b');
+    const lanesRef = assignLanes(data.reference);
+    const lanesPred = assignLanes(data.prediction);
+    const sharedLanes = Math.min(Math.max(lanesRef, lanesPred), 3);
+    const boardRef = makeBoard('fretboard-ref', data.reference, '#6ee7b7', sharedLanes);
+    const boardPred = makeBoard('fretboard-pred', data.prediction, '#f59e0b', sharedLanes);
 
     function fmt(s) {
       const m = Math.floor(s / 60), sec = Math.floor(s % 60);
