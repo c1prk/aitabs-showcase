@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_Funk3-98-A_solo",
+  "time_offset_sec": -0.01999999999999913,
+  "reference_bpm": 98.0,
+  "estimated_bpm": 98.0,
+  "ref_note_count": 119,
+  "pred_note_count": 108,
+  "pitch_precision": 0.9074074074074074,
+  "pitch_recall": 0.8235294117647058,
+  "pitch_f1": 0.8634361233480177,
+  "pitch_onset_mae_sec": 0.01509703364332938,
+  "tab_precision": 0.37037037037037035,
+  "tab_recall": 0.33613445378151263,
+  "tab_f1": 0.35242290748898675
+}

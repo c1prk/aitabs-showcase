@@ -1,0 +1,25 @@
+{
+  "clip_id": "test7 (Let Her Go)",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 140.0,
+  "estimated_bpm": 140.0,
+  "ref_note_count": 818,
+  "pred_note_count": 1134,
+  "pitch_precision": 0.17372134038800705,
+  "pitch_recall": 0.24083129584352078,
+  "pitch_f1": 0.20184426229508198,
+  "pitch_onset_mae_sec": 0.0029931972786572383,
+  "tab_precision": 0.1128747795414462,
+  "tab_recall": 0.15647921760391198,
+  "tab_f1": 0.13114754098360654,
+  "rhythm": {
+    "clip_id": "test7 (Let Her Go)",
+    "metric_position_precision": 0.6991576413959085,
+    "metric_position_recall": 0.9340836012861736,
+    "metric_position_f1": 0.7997247075017206,
+    "note_value_accuracy": 0.8450946643717728,
+    "rest_f1": 0.0,
+    "ref_attacks": 622,
+    "pred_attacks": 831
+  }
+}

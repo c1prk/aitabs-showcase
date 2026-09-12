@@ -1,0 +1,335 @@
+{
+  "model": "kong",
+  "best": {
+    "onset": 0.1,
+    "frame": 0.1,
+    "conf": 0.2,
+    "pitch_f1": 0.8096
+  },
+  "grid": [
+    {
+      "onset": 0.1,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.8096
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.8051
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.7771
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.7897
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.7868
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.7608
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.7743
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.7713
+    },
+    {
+      "onset": 0.1,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.7457
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.7861
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.7834
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.7595
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.7711
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.7698
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.746
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.7575
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.7563
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.7328
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.7337
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.7325
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.7097
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.7248
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.7238
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.7017
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.717
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.716
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.6947
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.6506
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.6496
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.6352
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.6479
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.6472
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.6331
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.644
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.6434
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.6296
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.5153
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.5151
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.5059
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.5143
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.5141
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.5053
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.5138
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.5136
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.5048
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.3485
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.3485
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.3427
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.348
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.348
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.3423
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.3474
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.3474
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.3417
+    }
+  ]
+}

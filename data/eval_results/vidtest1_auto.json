@@ -1,0 +1,28 @@
+{
+  "clip_id": "vidtest1",
+  "time_offset_sec": -0.26999999999999935,
+  "reference_bpm": 96.0,
+  "estimated_bpm": 96.0,
+  "ref_note_count": 92,
+  "pred_note_count": 82,
+  "pitch_precision": 0.4268292682926829,
+  "pitch_recall": 0.3804347826086957,
+  "pitch_f1": 0.4022988505747126,
+  "pitch_onset_mae_sec": 0.02671511175898968,
+  "tab_precision": 0.23170731707317074,
+  "tab_recall": 0.20652173913043478,
+  "tab_f1": 0.21839080459770116,
+  "rhythm": {
+    "clip_id": "vidtest1",
+    "metric_position_precision": 1.0,
+    "metric_position_recall": 0.7397260273972602,
+    "metric_position_f1": 0.8503937007874016,
+    "note_value_accuracy": 0.7407407407407407,
+    "rest_f1": 0.0,
+    "ref_attacks": 73,
+    "pred_attacks": 54
+  },
+  "config_flags": {
+    "auto_rhythm": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "clip_id": "test12 (Coco)",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 80.0,
+  "estimated_bpm": 80.0,
+  "ref_note_count": 279,
+  "pred_note_count": 283,
+  "pitch_precision": 0.7526501766784452,
+  "pitch_recall": 0.7634408602150538,
+  "pitch_f1": 0.7580071174377224,
+  "pitch_onset_mae_sec": 0.004269784580499701,
+  "tab_precision": 0.6113074204946997,
+  "tab_recall": 0.6200716845878136,
+  "tab_f1": 0.6156583629893237,
+  "rhythm": {
+    "clip_id": "test12 (Coco)",
+    "metric_position_precision": 0.9846153846153847,
+    "metric_position_recall": 0.9481481481481482,
+    "metric_position_f1": 0.9660377358490566,
+    "note_value_accuracy": 0.921875,
+    "rest_f1": 0.0,
+    "ref_attacks": 135,
+    "pred_attacks": 130
+  }
+}

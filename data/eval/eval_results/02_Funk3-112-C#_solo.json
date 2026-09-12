@@ -1,0 +1,15 @@
+{
+  "clip_id": "02_Funk3-112-C#_solo",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 112.0,
+  "estimated_bpm": 112.0,
+  "ref_note_count": 139,
+  "pred_note_count": 47,
+  "pitch_precision": 0.851063829787234,
+  "pitch_recall": 0.28776978417266186,
+  "pitch_f1": 0.43010752688172044,
+  "pitch_onset_mae_sec": 0.025935848922844885,
+  "tab_precision": 0.44680851063829785,
+  "tab_recall": 0.1510791366906475,
+  "tab_f1": 0.22580645161290322
+}

@@ -1,0 +1,25 @@
+{
+  "clip_id": "test11 (My Fav)",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 110.0,
+  "estimated_bpm": 110.0,
+  "ref_note_count": 302,
+  "pred_note_count": 353,
+  "pitch_precision": 0.4702549575070821,
+  "pitch_recall": 0.5496688741721855,
+  "pitch_f1": 0.5068702290076336,
+  "pitch_onset_mae_sec": 0.010709297797239555,
+  "tab_precision": 0.37393767705382436,
+  "tab_recall": 0.4370860927152318,
+  "tab_f1": 0.40305343511450387,
+  "rhythm": {
+    "clip_id": "test11 (My Fav)",
+    "metric_position_precision": 0.7204968944099379,
+    "metric_position_recall": 0.9666666666666667,
+    "metric_position_f1": 0.8256227758007116,
+    "note_value_accuracy": 0.9137931034482759,
+    "rest_f1": 1.0,
+    "ref_attacks": 120,
+    "pred_attacks": 161
+  }
+}

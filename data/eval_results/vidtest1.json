@@ -1,0 +1,15 @@
+{
+  "clip_id": "vidtest1",
+  "time_offset_sec": -0.23999999999999932,
+  "reference_bpm": 96.0,
+  "estimated_bpm": 96.0,
+  "ref_note_count": 92,
+  "pred_note_count": 91,
+  "pitch_precision": 0.45054945054945056,
+  "pitch_recall": 0.44565217391304346,
+  "pitch_f1": 0.4480874316939891,
+  "pitch_onset_mae_sec": 0.03202895650129956,
+  "tab_precision": 0.17582417582417584,
+  "tab_recall": 0.17391304347826086,
+  "tab_f1": 0.17486338797814208
+}

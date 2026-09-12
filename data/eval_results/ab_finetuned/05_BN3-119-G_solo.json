@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_BN3-119-G_solo",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 119.0,
+  "estimated_bpm": 119.0,
+  "ref_note_count": 62,
+  "pred_note_count": 70,
+  "pitch_precision": 0.7857142857142857,
+  "pitch_recall": 0.8870967741935484,
+  "pitch_f1": 0.8333333333333333,
+  "pitch_onset_mae_sec": 0.015223986321784217,
+  "tab_precision": 0.07142857142857142,
+  "tab_recall": 0.08064516129032258,
+  "tab_f1": 0.07575757575757575
+}

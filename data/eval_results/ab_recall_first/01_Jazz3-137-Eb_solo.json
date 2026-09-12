@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_Jazz3-137-Eb_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 137.0,
+  "estimated_bpm": 137.0,
+  "ref_note_count": 121,
+  "pred_note_count": 162,
+  "pitch_precision": 0.6296296296296297,
+  "pitch_recall": 0.8429752066115702,
+  "pitch_f1": 0.7208480565371025,
+  "pitch_onset_mae_sec": 0.010720209705939156,
+  "tab_precision": 0.09876543209876543,
+  "tab_recall": 0.1322314049586777,
+  "tab_f1": 0.11307420494699646
+}

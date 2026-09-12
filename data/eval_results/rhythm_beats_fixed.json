@@ -1,0 +1,230 @@
+{
+  "refine": false,
+  "n_clips": 20,
+  "mean_beat_f": 0.6230059762035293,
+  "mean_downbeat_f": 0.5108462984110105,
+  "mean_tempo_pct_err": 0.026357931191336115,
+  "meter_accuracy": 0.85,
+  "clips": [
+    {
+      "clip_id": "00_BN1-129-Eb_solo",
+      "beat_f": 0.7472527472527473,
+      "downbeat_f": 0.7826086956521738,
+      "tempo_bpm_ref": 129.0,
+      "tempo_bpm_pred": 129.19921875000006,
+      "tempo_pct_err": 0.0015443313953492778,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 43
+    },
+    {
+      "clip_id": "00_BN1-147-Gb_solo",
+      "beat_f": 0.35897435897435903,
+      "downbeat_f": 0.1818181818181818,
+      "tempo_bpm_ref": 147.0,
+      "tempo_bpm_pred": 99.38401442307693,
+      "tempo_pct_err": 0.32391826923076916,
+      "meter_correct": false,
+      "n_ref_beats": 48,
+      "n_pred_beats": 30
+    },
+    {
+      "clip_id": "00_BN2-131-B_solo",
+      "beat_f": 0.890625,
+      "downbeat_f": 0.875,
+      "tempo_bpm_ref": 131.0,
+      "tempo_bpm_pred": 129.1992187500003,
+      "tempo_pct_err": 0.013746421755722804,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 64
+    },
+    {
+      "clip_id": "00_BN2-166-Ab_solo",
+      "beat_f": 0.984375,
+      "downbeat_f": 0.9375,
+      "tempo_bpm_ref": 166.0,
+      "tempo_bpm_pred": 161.49902343750134,
+      "tempo_pct_err": 0.02711431664155822,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 64
+    },
+    {
+      "clip_id": "00_BN3-119-G_solo",
+      "beat_f": 0.515625,
+      "downbeat_f": 0.0,
+      "tempo_bpm_ref": 119.0,
+      "tempo_bpm_pred": 117.45383522727278,
+      "tempo_pct_err": 0.012992981283422047,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 64
+    },
+    {
+      "clip_id": "00_BN3-154-E_solo",
+      "beat_f": 0.90625,
+      "downbeat_f": 1.0,
+      "tempo_bpm_ref": 154.0,
+      "tempo_bpm_pred": 151.99908088235324,
+      "tempo_pct_err": 0.012992981283420517,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 64
+    },
+    {
+      "clip_id": "00_Funk1-114-Ab_solo",
+      "beat_f": 0.23157894736842108,
+      "downbeat_f": 0.2608695652173913,
+      "tempo_bpm_ref": 114.0,
+      "tempo_bpm_pred": 112.34714673913047,
+      "tempo_pct_err": 0.014498712814645038,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 47
+    },
+    {
+      "clip_id": "00_Funk1-97-C_solo",
+      "beat_f": 0.20833333333333334,
+      "downbeat_f": 0.25,
+      "tempo_bpm_ref": 97.0,
+      "tempo_bpm_pred": 99.38401442307664,
+      "tempo_pct_err": 0.024577468279140573,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 48
+    },
+    {
+      "clip_id": "00_Funk2-108-Eb_solo",
+      "beat_f": 0.1732283464566929,
+      "downbeat_f": 0.12903225806451615,
+      "tempo_bpm_ref": 108.0,
+      "tempo_bpm_pred": 107.66601562500054,
+      "tempo_pct_err": 0.0030924479166616666,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 63
+    },
+    {
+      "clip_id": "00_Funk2-119-G_solo",
+      "beat_f": 0.6611570247933884,
+      "downbeat_f": 0.6666666666666666,
+      "tempo_bpm_ref": 119.0,
+      "tempo_bpm_pred": 117.45383522727278,
+      "tempo_pct_err": 0.012992981283422047,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 57
+    },
+    {
+      "clip_id": "00_Funk3-112-C#_solo",
+      "beat_f": 0.8253968253968254,
+      "downbeat_f": 0.7741935483870969,
+      "tempo_bpm_ref": 112.0,
+      "tempo_bpm_pred": 112.34714673913038,
+      "tempo_pct_err": 0.0030995244565212537,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 62
+    },
+    {
+      "clip_id": "00_Funk3-98-A_solo",
+      "beat_f": 0.07874015748031496,
+      "downbeat_f": 0.0,
+      "tempo_bpm_ref": 98.0,
+      "tempo_bpm_pred": 99.38401442307693,
+      "tempo_pct_err": 0.014122596153846265,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 63
+    },
+    {
+      "clip_id": "00_Jazz1-130-D_solo",
+      "beat_f": 0.6881720430107527,
+      "downbeat_f": 0.22222222222222224,
+      "tempo_bpm_ref": 130.0,
+      "tempo_bpm_pred": 129.19921875000003,
+      "tempo_pct_err": 0.0061598557692305505,
+      "meter_correct": false,
+      "n_ref_beats": 48,
+      "n_pred_beats": 45
+    },
+    {
+      "clip_id": "00_Jazz1-200-B_solo",
+      "beat_f": 0.5294117647058825,
+      "downbeat_f": 0.47058823529411764,
+      "tempo_bpm_ref": 200.0,
+      "tempo_bpm_pred": 99.38401442307693,
+      "tempo_pct_err": 0.00615985576923066,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 20
+    },
+    {
+      "clip_id": "00_Jazz2-110-Bb_solo",
+      "beat_f": 0.9448818897637795,
+      "downbeat_f": 0.9032258064516129,
+      "tempo_bpm_ref": 110.0,
+      "tempo_bpm_pred": 109.95678191489333,
+      "tempo_pct_err": 0.0003928916827879386,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 63
+    },
+    {
+      "clip_id": "00_Jazz2-187-F#_solo",
+      "beat_f": 0.8730158730158729,
+      "downbeat_f": 0.8387096774193549,
+      "tempo_bpm_ref": 187.0,
+      "tempo_bpm_pred": 184.57031250000026,
+      "tempo_pct_err": 0.012992981283421093,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 62
+    },
+    {
+      "clip_id": "00_Jazz3-137-Eb_solo",
+      "beat_f": 0.9193548387096774,
+      "downbeat_f": 0.8387096774193549,
+      "tempo_bpm_ref": 137.0,
+      "tempo_bpm_pred": 135.9991776315789,
+      "tempo_pct_err": 0.007305272762197792,
+      "meter_correct": true,
+      "n_ref_beats": 64,
+      "n_pred_beats": 60
+    },
+    {
+      "clip_id": "00_Jazz3-150-C_solo",
+      "beat_f": 0.9763779527559054,
+      "downbeat_f": 0.2162162162162162,
+      "tempo_bpm_ref": 150.0,
+      "tempo_bpm_pred": 151.9990808823529,
+      "tempo_pct_err": 0.013327205882352663,
+      "meter_correct": false,
+      "n_ref_beats": 64,
+      "n_pred_beats": 63
+    },
+    {
+      "clip_id": "00_Rock1-130-A_solo",
+      "beat_f": 0.9473684210526315,
+      "downbeat_f": 0.8695652173913043,
+      "tempo_bpm_ref": 130.0,
+      "tempo_bpm_pred": 129.19921875000006,
+      "tempo_pct_err": 0.006159855769230332,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 47
+    },
+    {
+      "clip_id": "00_Rock1-90-C#_solo",
+      "beat_f": 0.0,
+      "downbeat_f": 0.0,
+      "tempo_bpm_ref": 90.0,
+      "tempo_bpm_pred": 89.10290948275868,
+      "tempo_pct_err": 0.009967672413792488,
+      "meter_correct": true,
+      "n_ref_beats": 48,
+      "n_pred_beats": 41
+    }
+  ]
+}

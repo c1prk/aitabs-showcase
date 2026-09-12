@@ -1,0 +1,15 @@
+{
+  "clip_id": "02_Funk2-108-Eb_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 108.0,
+  "estimated_bpm": 108.0,
+  "ref_note_count": 98,
+  "pred_note_count": 86,
+  "pitch_precision": 0.7674418604651163,
+  "pitch_recall": 0.673469387755102,
+  "pitch_f1": 0.7173913043478259,
+  "pitch_onset_mae_sec": 0.014285439428310188,
+  "tab_precision": 0.06976744186046512,
+  "tab_recall": 0.061224489795918366,
+  "tab_f1": 0.06521739130434782
+}

@@ -1,0 +1,25 @@
+{
+  "clip_id": "test4 (Fur Elise)",
+  "time_offset_sec": 0.06000000000000094,
+  "reference_bpm": 55.0,
+  "estimated_bpm": 55.0,
+  "ref_note_count": 953,
+  "pred_note_count": 736,
+  "pitch_precision": 0.75,
+  "pitch_recall": 0.5792235047219307,
+  "pitch_f1": 0.6536412078152753,
+  "pitch_onset_mae_sec": 0.02667786012280866,
+  "tab_precision": 0.48641304347826086,
+  "tab_recall": 0.3756558237145855,
+  "tab_f1": 0.42391947898164595,
+  "rhythm": {
+    "clip_id": "test4 (Fur Elise)",
+    "metric_position_precision": 0.9957983193277311,
+    "metric_position_recall": 0.6030534351145038,
+    "metric_position_f1": 0.7511885895404121,
+    "note_value_accuracy": 0.6708860759493671,
+    "rest_f1": 0.0,
+    "ref_attacks": 786,
+    "pred_attacks": 476
+  }
+}

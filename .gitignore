@@ -1,0 +1,79 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / secrets
+.DS_Store
+.env
+.env.local
+
+# Media (local recordings — not committed)
+*.mp3
+*.wav
+*.mp4
+*.mov
+*.flac
+
+# Model weights
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Pipeline / separation artifacts
+data/runs/
+data/demucs_output/
+eval/results/
+audio_recording/
+
+# Eval run artifacts (JSON scores under data/eval_results/ are committed)
+data/eval_results/**/runs/
+data/eval/**/cache/
+data/eval/**/tune_runs*/
+data/eval/**/run_final/
+data/eval/**/rhythm_tune/
+data/eval/**/*.log
+data/eval/**/summary.json
+data/eval/**/rhythm_leaderboard.json
+*_norm.wav
+*_pred.gp5
+
+# IDE
+.cursor/
+.idea/
+.vscode/
+
+# Track 0 synthetic renders (regenerated from committed .gp5)
+data/eval/synthetic/
+data/eval/_diag_runs/
+data/eval/_guitarset_raw/
+data/eval/guitarset/
+data/eval_results/synthetic_gap.json
+data/datasets/
+
+# Session eval outputs (regeneratable caches + calibration/tab results)
+data/eval_results/cache_*/
+data/eval_results/cal_*.json
+data/eval_results/*.partial.json
+data/eval_results/tabs_test/
+data/eval_results/kong_gpu_*/
+data/eval_results/kong_final_180/
+data/eval_results/notes/
+
+# Business pitch (local, sensitive — do not commit)
+PARTNERSHIP_BRIEF.md
+AITabs_Partnership_Brief.pdf

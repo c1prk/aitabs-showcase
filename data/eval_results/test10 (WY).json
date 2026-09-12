@@ -1,0 +1,25 @@
+{
+  "clip_id": "test10 (WY)",
+  "time_offset_sec": -0.03999999999999915,
+  "reference_bpm": 100.0,
+  "estimated_bpm": 100.0,
+  "ref_note_count": 39,
+  "pred_note_count": 35,
+  "pitch_precision": 0.45714285714285713,
+  "pitch_recall": 0.41025641025641024,
+  "pitch_f1": 0.4324324324324324,
+  "pitch_onset_mae_sec": 0.023429999999999465,
+  "tab_precision": 0.4,
+  "tab_recall": 0.358974358974359,
+  "tab_f1": 0.37837837837837845,
+  "rhythm": {
+    "clip_id": "test10 (WY)",
+    "metric_position_precision": 0.8333333333333334,
+    "metric_position_recall": 0.8333333333333334,
+    "metric_position_f1": 0.8333333333333334,
+    "note_value_accuracy": 0.75,
+    "rest_f1": 0.0,
+    "ref_attacks": 24,
+    "pred_attacks": 24
+  }
+}

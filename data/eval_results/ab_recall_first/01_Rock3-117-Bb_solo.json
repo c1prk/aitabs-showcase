@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_Rock3-117-Bb_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 117.0,
+  "estimated_bpm": 117.0,
+  "ref_note_count": 133,
+  "pred_note_count": 149,
+  "pitch_precision": 0.6577181208053692,
+  "pitch_recall": 0.7368421052631579,
+  "pitch_f1": 0.6950354609929078,
+  "pitch_onset_mae_sec": 0.012662031845703114,
+  "tab_precision": 0.09395973154362416,
+  "tab_recall": 0.10526315789473684,
+  "tab_f1": 0.09929078014184396
+}

@@ -1,0 +1,15 @@
+{
+  "clip_id": "03_BN2-166-Ab_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 166.0,
+  "estimated_bpm": 166.0,
+  "ref_note_count": 76,
+  "pred_note_count": 31,
+  "pitch_precision": 0.9032258064516129,
+  "pitch_recall": 0.3684210526315789,
+  "pitch_f1": 0.5233644859813085,
+  "pitch_onset_mae_sec": 0.0114694008297507,
+  "tab_precision": 0.3225806451612903,
+  "tab_recall": 0.13157894736842105,
+  "tab_f1": 0.18691588785046728
+}

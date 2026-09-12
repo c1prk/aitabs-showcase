@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_Rock2-142-D_solo",
+  "time_offset_sec": 0.020000000000000906,
+  "reference_bpm": 142.0,
+  "estimated_bpm": 142.0,
+  "ref_note_count": 86,
+  "pred_note_count": 37,
+  "pitch_precision": 0.8918918918918919,
+  "pitch_recall": 0.38372093023255816,
+  "pitch_f1": 0.5365853658536586,
+  "pitch_onset_mae_sec": 0.011524718295342554,
+  "tab_precision": 0.0,
+  "tab_recall": 0.0,
+  "tab_f1": 0.0
+}

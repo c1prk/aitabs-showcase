@@ -1,0 +1,1159 @@
+{
+  "clip_id": "00_BN1-129-Eb_solo",
+  "reference": [
+    {
+      "start": 0.008544217687131095,
+      "end": 0.1826938775510598,
+      "pitch_midi": 56,
+      "string": 2,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.009972789115749947,
+      "end": 0.2247573696146219,
+      "pitch_midi": 46,
+      "string": 0,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.015052154195132061,
+      "end": 0.18339682539692603,
+      "pitch_midi": 51,
+      "string": 1,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.18695691609980258,
+      "end": 0.48881632653069573,
+      "pitch_midi": 53,
+      "string": 1,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.18770521541955532,
+      "end": 0.47795464852617897,
+      "pitch_midi": 58,
+      "string": 2,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.4973650793651814,
+      "end": 0.9211292517007905,
+      "pitch_midi": 52,
+      "string": 1,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.49881632653068664,
+      "end": 0.8471156462585441,
+      "pitch_midi": 52,
+      "string": 2,
+      "fret": 2,
+      "confidence": 1.0
+    },
+    {
+      "start": 0.928090702947884,
+      "end": 1.0267755102041747,
+      "pitch_midi": 52,
+      "string": 1,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 1.0274104308390406,
+      "end": 1.4337596371882455,
+      "pitch_midi": 53,
+      "string": 1,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 1.4380226757369883,
+      "end": 1.681832199546534,
+      "pitch_midi": 57,
+      "string": 2,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 1.4386802721088543,
+      "end": 1.804394557823116,
+      "pitch_midi": 52,
+      "string": 1,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 1.6824671201815136,
+      "end": 1.8972517006803855,
+      "pitch_midi": 58,
+      "string": 2,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 1.9067755102041701,
+      "end": 2.7543038548753884,
+      "pitch_midi": 57,
+      "string": 2,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 2.3135102040816946,
+      "end": 2.9056190476190977,
+      "pitch_midi": 53,
+      "string": 1,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 2.7899954648527228,
+      "end": 4.194802721088536,
+      "pitch_midi": 57,
+      "string": 2,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 3.2396326530612214,
+      "end": 3.7156417233560433,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 3.716367346938796,
+      "end": 4.203986394557887,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 4.2262993197279,
+      "end": 6.275460317460329,
+      "pitch_midi": 58,
+      "string": 2,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 4.460789115646321,
+      "end": 5.012263038548781,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 4.916458049886614,
+      "end": 5.351832199546493,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 5.388589569161013,
+      "end": 6.514757369614472,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 5.80770521541956,
+      "end": 6.272104308390112,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 5.8229433106575925,
+      "end": 6.03192290249433,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.07221768707484,
+      "end": 6.525006802721123,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.540743764172362,
+      "end": 6.9528979591837015,
+      "pitch_midi": 67,
+      "string": 4,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.545029478457991,
+      "end": 6.881718820861579,
+      "pitch_midi": 63,
+      "string": 3,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.553079365079384,
+      "end": 6.930403628117915,
+      "pitch_midi": 72,
+      "string": 5,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.901945578231334,
+      "end": 7.006435374149646,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 1.0
+    },
+    {
+      "start": 6.980154195011437,
+      "end": 8.1237369614513,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 7.456911564625898,
+      "end": 7.665891156462635,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 7.665981859410522,
+      "end": 7.8865714285715285,
+      "pitch_midi": 72,
+      "string": 5,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 7.887637188208714,
+      "end": 8.137251700680395,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 8.346684807256224,
+      "end": 8.544054421768692,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 8.605414965986483,
+      "end": 8.779564625850412,
+      "pitch_midi": 69,
+      "string": 4,
+      "fret": 10,
+      "confidence": 1.0
+    },
+    {
+      "start": 8.835777777777821,
+      "end": 10.037410430839032,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 1.0
+    },
+    {
+      "start": 9.80042630385492,
+      "end": 10.241605442176933,
+      "pitch_midi": 67,
+      "string": 4,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 10.05478004535155,
+      "end": 10.45532426303862,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 1.0
+    },
+    {
+      "start": 10.278385487528453,
+      "end": 10.684734693877658,
+      "pitch_midi": 67,
+      "string": 4,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 10.481129251700736,
+      "end": 13.012104308390121,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 1.0
+    },
+    {
+      "start": 10.725800453514807,
+      "end": 10.946390022675814,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 10.975074829932055,
+      "end": 11.172444444444523,
+      "pitch_midi": 67,
+      "string": 4,
+      "fret": 8,
+      "confidence": 1.0
+    },
+    {
+      "start": 11.201832199546516,
+      "end": 11.457251700680331,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 11.477002267573653,
+      "end": 11.593102040816234,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 1.0
+    },
+    {
+      "start": 11.598090702947843,
+      "end": 11.841900226757389,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 1.0
+    },
+    {
+      "start": 11.86292063492067,
+      "end": 12.10092517006808,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 12.127931972789156,
+      "end": 12.302081632653085,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 1.0
+    },
+    {
+      "start": 12.343782312925214,
+      "end": 12.541151927437681,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 1.0
+    },
+    {
+      "start": 12.576344671201923,
+      "end": 12.744689342403717,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 1.0
+    },
+    {
+      "start": 12.746956916099862,
+      "end": 13.106866213151989,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 13.063011337868488,
+      "end": 13.463555555555558,
+      "pitch_midi": 60,
+      "string": 3,
+      "fret": 5,
+      "confidence": 1.0
+    },
+    {
+      "start": 13.530063492063505,
+      "end": 14.18602721088439,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 14.228952380952364,
+      "end": 14.466956916099775,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 14.897319727891158,
+      "end": 15.106299319727896,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 15.11171882086171,
+      "end": 15.390358276644065,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 1.0
+    },
+    {
+      "start": 15.392716553288096,
+      "end": 15.58428117913843,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 1.0
+    },
+    {
+      "start": 15.587841269841306,
+      "end": 15.872285714285795,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 15.872126984127021,
+      "end": 16.499065759637233,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 1.0
+    },
+    {
+      "start": 16.29945124716562,
+      "end": 16.53745578231303,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 16.4997913832201,
+      "end": 16.743600907029645,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 1.0
+    },
+    {
+      "start": 16.746163265306222,
+      "end": 16.926117913832286,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 1.0
+    },
+    {
+      "start": 16.928226757369657,
+      "end": 17.241696145124706,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 17.25682086167808,
+      "end": 17.65736507936515,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 1.0
+    },
+    {
+      "start": 17.697705215419546,
+      "end": 17.912489795918418,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 17.91548299319743,
+      "end": 18.18831746031765,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 1.0
+    },
+    {
+      "start": 18.213668934240445,
+      "end": 18.405233560090778,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 18.4111292517008,
+      "end": 18.782648526077196,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 1.0
+    },
+    {
+      "start": 18.657478458049923,
+      "end": 19.388907029478446,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 19.356367346938896,
+      "end": 19.571151927437768,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 19.59813605442173,
+      "end": 20.08575510204082,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 1.0
+    },
+    {
+      "start": 20.09595918367347,
+      "end": 20.194643990929762,
+      "pitch_midi": 54,
+      "string": 2,
+      "fret": 4,
+      "confidence": 1.0
+    },
+    {
+      "start": 20.56081179138323,
+      "end": 22.32439999999997,
+      "pitch_midi": 55,
+      "string": 2,
+      "fret": 5,
+      "confidence": 1.0
+    }
+  ],
+  "prediction": [
+    {
+      "start": -0.413191161736012,
+      "end": -0.23877255708484924,
+      "pitch_midi": 51,
+      "string": 2,
+      "fret": 1,
+      "confidence": 0.7396275401115417
+    },
+    {
+      "start": -0.413191161736012,
+      "end": -0.3114237198755469,
+      "pitch_midi": 56,
+      "string": 3,
+      "fret": 1,
+      "confidence": 0.6013251543045044
+    },
+    {
+      "start": -0.23877255708484924,
+      "end": 0.022855349891895,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 0.7643689513206482
+    },
+    {
+      "start": 0.022855349891895,
+      "end": 0.9203902336128252,
+      "pitch_midi": 52,
+      "string": 2,
+      "fret": 2,
+      "confidence": 0.829242467880249
+    },
+    {
+      "start": 0.9203902336128252,
+      "end": 0.9821576754732904,
+      "pitch_midi": 52,
+      "string": 2,
+      "fret": 2,
+      "confidence": 0.6729998588562012
+    },
+    {
+      "start": 0.9821576754732904,
+      "end": 1.3855065126825925,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 0.733389675617218
+    },
+    {
+      "start": 1.4472739545430577,
+      "end": 1.6653204661709649,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.800487220287323
+    },
+    {
+      "start": 1.6653204661709649,
+      "end": 1.8833204661709648,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.7176049947738647
+    },
+    {
+      "start": 1.85062279175236,
+      "end": 2.780855349891895,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.8260442614555359
+    },
+    {
+      "start": 2.3157390708221275,
+      "end": 2.780855349891895,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 0.7428526282310486
+    },
+    {
+      "start": 2.780855349891895,
+      "end": 4.176204187101197,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.765529215335846
+    },
+    {
+      "start": 3.2459716289616622,
+      "end": 3.7110879080314296,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.7901369333267212
+    },
+    {
+      "start": 3.7110879080314296,
+      "end": 4.456018140589569,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.7129825353622437
+    },
+    {
+      "start": 4.237971628961662,
+      "end": 4.437832094077941,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.8213249444961548
+    },
+    {
+      "start": 4.412390233612825,
+      "end": 4.957460001054686,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.7516650557518005
+    },
+    {
+      "start": 4.877506512682593,
+      "end": 5.807739070822128,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.6352533102035522
+    },
+    {
+      "start": 4.877506512682593,
+      "end": 4.9029483731477095,
+      "pitch_midi": 65,
+      "string": 5,
+      "fret": 1,
+      "confidence": 0.7467882037162781
+    },
+    {
+      "start": 5.386250698729104,
+      "end": 6.501785582450035,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.6804819703102112
+    },
+    {
+      "start": 5.807739070822128,
+      "end": 6.501785582450035,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 0.6384122371673584
+    },
+    {
+      "start": 5.807739070822128,
+      "end": 6.272855349891896,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 0.6632519364356995
+    },
+    {
+      "start": 6.53448325686864,
+      "end": 6.966901861519802,
+      "pitch_midi": 67,
+      "string": 4,
+      "fret": 8,
+      "confidence": 0.8380582332611084
+    },
+    {
+      "start": 6.53448325686864,
+      "end": 6.966901861519802,
+      "pitch_midi": 72,
+      "string": 5,
+      "fret": 8,
+      "confidence": 0.6758973002433777
+    },
+    {
+      "start": 6.966901861519802,
+      "end": 8.133320466170964,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 0.67083740234375
+    },
+    {
+      "start": 7.464715815008175,
+      "end": 7.668204187101198,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 0.6869145631790161
+    },
+    {
+      "start": 7.668204187101198,
+      "end": 7.897134419659337,
+      "pitch_midi": 72,
+      "string": 5,
+      "fret": 8,
+      "confidence": 0.6724470853805542
+    },
+    {
+      "start": 7.897134419659337,
+      "end": 8.060669303380267,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 0.5422685742378235
+    },
+    {
+      "start": 8.362250698729104,
+      "end": 8.525785582450034,
+      "pitch_midi": 70,
+      "string": 5,
+      "fret": 6,
+      "confidence": 0.6596555709838867
+    },
+    {
+      "start": 8.598436745240733,
+      "end": 8.82736697779887,
+      "pitch_midi": 69,
+      "string": 5,
+      "fret": 5,
+      "confidence": 0.6833915114402771
+    },
+    {
+      "start": 8.82736697779887,
+      "end": 9.456018140589569,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.723360538482666
+    },
+    {
+      "start": 9.456018140589569,
+      "end": 9.79029721035701,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.601371169090271
+    },
+    {
+      "start": 9.757599535938406,
+      "end": 10.037413489426779,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.5828584432601929
+    },
+    {
+      "start": 9.757599535938406,
+      "end": 10.255413489426779,
+      "pitch_midi": 67,
+      "string": 5,
+      "fret": 3,
+      "confidence": 0.6990004777908325
+    },
+    {
+      "start": 10.037413489426779,
+      "end": 10.255413489426779,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.7234101295471191
+    },
+    {
+      "start": 10.255413489426779,
+      "end": 10.458901861519802,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.6717156767845154
+    },
+    {
+      "start": 10.255413489426779,
+      "end": 10.967646047566314,
+      "pitch_midi": 67,
+      "string": 5,
+      "fret": 3,
+      "confidence": 0.5764449834823608
+    },
+    {
+      "start": 10.720529768496545,
+      "end": 10.749599535938405,
+      "pitch_midi": 65,
+      "string": 5,
+      "fret": 1,
+      "confidence": 0.6987683176994324
+    },
+    {
+      "start": 10.967646047566314,
+      "end": 11.854250698729103,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.6240786910057068
+    },
+    {
+      "start": 10.967646047566314,
+      "end": 11.316483256868638,
+      "pitch_midi": 67,
+      "string": 5,
+      "fret": 3,
+      "confidence": 0.6080367565155029
+    },
+    {
+      "start": 11.185646047566314,
+      "end": 11.389134419659337,
+      "pitch_midi": 65,
+      "string": 4,
+      "fret": 6,
+      "confidence": 0.7231016755104065
+    },
+    {
+      "start": 11.389134419659337,
+      "end": 11.469087908031428,
+      "pitch_midi": 64,
+      "string": 4,
+      "fret": 5,
+      "confidence": 0.568281352519989
+    },
+    {
+      "start": 11.469087908031428,
+      "end": 11.65076232663608,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 0.734832763671875
+    },
+    {
+      "start": 11.65076232663608,
+      "end": 11.781599535938405,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 0.7319284677505493
+    },
+    {
+      "start": 11.854250698729103,
+      "end": 12.115878605705849,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.7557078003883362
+    },
+    {
+      "start": 12.115878605705849,
+      "end": 12.319366977798872,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 0.7025472521781921
+    },
+    {
+      "start": 12.319366977798872,
+      "end": 12.54829721035701,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.5533790588378906
+    },
+    {
+      "start": 12.319366977798872,
+      "end": 12.54829721035701,
+      "pitch_midi": 65,
+      "string": 5,
+      "fret": 1,
+      "confidence": 0.6959598064422607
+    },
+    {
+      "start": 12.580994884775615,
+      "end": 12.71183209407794,
+      "pitch_midi": 63,
+      "string": 4,
+      "fret": 4,
+      "confidence": 0.7317074537277222
+    },
+    {
+      "start": 12.71183209407794,
+      "end": 13.013413489426778,
+      "pitch_midi": 62,
+      "string": 4,
+      "fret": 3,
+      "confidence": 0.6115347146987915
+    },
+    {
+      "start": 13.046111163845383,
+      "end": 13.478529768496545,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 0.6306554079055786
+    },
+    {
+      "start": 13.642064652217474,
+      "end": 14.205273954543056,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.7437863349914551
+    },
+    {
+      "start": 14.205273954543056,
+      "end": 14.906576280124453,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.6601539850234985
+    },
+    {
+      "start": 14.906576280124453,
+      "end": 15.110064652217476,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.8202703595161438
+    },
+    {
+      "start": 15.037413489426777,
+      "end": 15.37169255919422,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.8027950525283813
+    },
+    {
+      "start": 15.37169255919422,
+      "end": 15.40076232663608,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.7804071307182312
+    },
+    {
+      "start": 15.575180931287242,
+      "end": 15.836808838263988,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.7172302603721619
+    },
+    {
+      "start": 15.865878605705849,
+      "end": 16.269227442915152,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.551247775554657
+    },
+    {
+      "start": 15.865878605705849,
+      "end": 16.50541348942678,
+      "pitch_midi": 60,
+      "string": 4,
+      "fret": 1,
+      "confidence": 0.676092803478241
+    },
+    {
+      "start": 16.269227442915152,
+      "end": 16.50541348942678,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.5627010464668274
+    },
+    {
+      "start": 16.734343721984917,
+      "end": 16.970529768496544,
+      "pitch_midi": 60,
+      "string": 3,
+      "fret": 5,
+      "confidence": 0.7891257405281067
+    },
+    {
+      "start": 16.89787860570585,
+      "end": 17.26122744291515,
+      "pitch_midi": 62,
+      "string": 3,
+      "fret": 7,
+      "confidence": 0.7858543992042542
+    },
+    {
+      "start": 17.26122744291515,
+      "end": 17.664576280124454,
+      "pitch_midi": 60,
+      "string": 3,
+      "fret": 5,
+      "confidence": 0.7364716529846191
+    },
+    {
+      "start": 17.664576280124454,
+      "end": 17.90076232663608,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.8345910906791687
+    },
+    {
+      "start": 17.90076232663608,
+      "end": 18.191460001054683,
+      "pitch_midi": 57,
+      "string": 3,
+      "fret": 2,
+      "confidence": 0.7737717628479004
+    },
+    {
+      "start": 18.191460001054683,
+      "end": 18.29322744291515,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.709212601184845
+    },
+    {
+      "start": 18.365878605705845,
+      "end": 18.65657628012445,
+      "pitch_midi": 60,
+      "string": 3,
+      "fret": 5,
+      "confidence": 0.7515471577644348
+    },
+    {
+      "start": 18.65657628012445,
+      "end": 19.376064652217476,
+      "pitch_midi": 58,
+      "string": 3,
+      "fret": 3,
+      "confidence": 0.7607995271682739
+    },
+    {
+      "start": 19.3215530243105,
+      "end": 19.586808838263988,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 0.7686600089073181
+    },
+    {
+      "start": 19.557739070822127,
+      "end": 20.051925117333752,
+      "pitch_midi": 53,
+      "string": 2,
+      "fret": 3,
+      "confidence": 0.7752129435539246
+    },
+    {
+      "start": 20.051925117333752,
+      "end": 20.226343721984914,
+      "pitch_midi": 54,
+      "string": 2,
+      "fret": 4,
+      "confidence": 0.6745007634162903
+    },
+    {
+      "start": 20.226343721984914,
+      "end": 20.51704139640352,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.7539334297180176
+    },
+    {
+      "start": 20.51704139640352,
+      "end": 21.15657628012445,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.6934266686439514
+    },
+    {
+      "start": 21.385506512682593,
+      "end": 21.850622791752357,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.5531029105186462
+    },
+    {
+      "start": 21.850622791752357,
+      "end": 22.16676232663608,
+      "pitch_midi": 55,
+      "string": 3,
+      "fret": 0,
+      "confidence": 0.6638593673706055
+    }
+  ]
+}

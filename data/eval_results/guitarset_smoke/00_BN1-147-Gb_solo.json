@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_BN1-147-Gb_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 147.0,
+  "estimated_bpm": 147.0,
+  "ref_note_count": 89,
+  "pred_note_count": 76,
+  "pitch_precision": 0.9473684210526315,
+  "pitch_recall": 0.8089887640449438,
+  "pitch_f1": 0.8727272727272727,
+  "pitch_onset_mae_sec": 0.016738687326772698,
+  "tab_precision": 0.7894736842105263,
+  "tab_recall": 0.6741573033707865,
+  "tab_f1": 0.7272727272727273
+}

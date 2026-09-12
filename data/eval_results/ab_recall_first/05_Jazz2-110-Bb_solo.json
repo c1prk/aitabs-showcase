@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_Jazz2-110-Bb_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 110.0,
+  "estimated_bpm": 110.0,
+  "ref_note_count": 103,
+  "pred_note_count": 126,
+  "pitch_precision": 0.6428571428571429,
+  "pitch_recall": 0.7864077669902912,
+  "pitch_f1": 0.7074235807860262,
+  "pitch_onset_mae_sec": 0.019976138304178936,
+  "tab_precision": 0.29365079365079366,
+  "tab_recall": 0.3592233009708738,
+  "tab_f1": 0.3231441048034934
+}

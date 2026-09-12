@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_Jazz1-130-D_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 130.0,
+  "estimated_bpm": 130.0,
+  "ref_note_count": 68,
+  "pred_note_count": 88,
+  "pitch_precision": 0.6136363636363636,
+  "pitch_recall": 0.7941176470588235,
+  "pitch_f1": 0.6923076923076923,
+  "pitch_onset_mae_sec": 0.019521567791423527,
+  "tab_precision": 0.10227272727272728,
+  "tab_recall": 0.1323529411764706,
+  "tab_f1": 0.11538461538461539
+}

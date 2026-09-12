@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_Funk2-119-G_solo",
+  "time_offset_sec": 0.030000000000000915,
+  "reference_bpm": 119.0,
+  "estimated_bpm": 119.0,
+  "ref_note_count": 137,
+  "pred_note_count": 40,
+  "pitch_precision": 0.75,
+  "pitch_recall": 0.21897810218978103,
+  "pitch_f1": 0.33898305084745767,
+  "pitch_onset_mae_sec": 0.019368995598274808,
+  "tab_precision": 0.025,
+  "tab_recall": 0.0072992700729927005,
+  "tab_f1": 0.01129943502824859
+}

@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_Rock2-85-F_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 85.0,
+  "estimated_bpm": 85.0,
+  "ref_note_count": 190,
+  "pred_note_count": 138,
+  "pitch_precision": 0.855072463768116,
+  "pitch_recall": 0.6210526315789474,
+  "pitch_f1": 0.7195121951219512,
+  "pitch_onset_mae_sec": 0.015338378967405083,
+  "tab_precision": 0.2391304347826087,
+  "tab_recall": 0.1736842105263158,
+  "tab_f1": 0.20121951219512194
+}

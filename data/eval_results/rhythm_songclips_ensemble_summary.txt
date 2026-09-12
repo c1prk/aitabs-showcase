@@ -1,0 +1,13 @@
+variant                     pitchF1   posF1   nvAcc  restF1
+BP baseline (no pp)           0.643   0.839   0.806   0.188
+Ensemble+pp                   0.632   0.836   0.796   0.179
+Ensemble no-pp                0.630   0.821   0.775   0.093
+Ensemble+pp refineOFF         0.632   0.836   0.796   0.179
+
+vidtest1 only (the single REAL recording; test1-12 are MIDI renders):
+  BP baseline    pitchF1=0.828 posF1=0.712 nvAcc=0.638
+  Ensemble+pp    pitchF1=0.870 posF1=0.761 nvAcc=0.667   <- best
+  Ensemble no-pp pitchF1=0.832 posF1=0.661 nvAcc=0.524
+Config: detector=ensemble (Kong eval/kong2_ft_step4000.pth + BasicPitch, augment mode),
+Kong thresholds onset=0.4/frame=0.2/conf=0.2, preprocess=DC+HPF78+LUFS, base=best_combined.json,
+rhythm_quantizer=adaptive, no-demucs. 12 clips (test1,test3-12,vidtest1). 2026-07-08.

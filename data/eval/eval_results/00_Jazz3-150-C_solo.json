@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_Jazz3-150-C_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 150.0,
+  "estimated_bpm": 150.0,
+  "ref_note_count": 81,
+  "pred_note_count": 50,
+  "pitch_precision": 0.72,
+  "pitch_recall": 0.4444444444444444,
+  "pitch_f1": 0.5496183206106869,
+  "pitch_onset_mae_sec": 0.01214433862436796,
+  "tab_precision": 0.44,
+  "tab_recall": 0.2716049382716049,
+  "tab_f1": 0.3358778625954198
+}

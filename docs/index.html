@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AITabs Pipeline — Audio-to-Guitar-Tab Transcription</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0b0d12;
+    --panel: #12151c;
+    --border: #262b36;
+    --text: #e6e8ee;
+    --muted: #9aa3b2;
+    --accent: #6ee7b7;
+    --accent2: #f59e0b;
+    --mono: "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin: 0 0 32px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .badges { margin-bottom: 32px; }
+  .badge {
+    display: inline-block; font-size: 0.78rem; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px;
+    margin-right: 8px; margin-bottom: 8px;
+  }
+  section { margin-bottom: 48px; }
+  h2 {
+    font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--muted); border-bottom: 1px solid var(--border); padding-bottom: 10px;
+  }
+  .pipeline {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 20px 0;
+  }
+  .step {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+    padding: 10px 14px; font-family: var(--mono); font-size: 0.85rem;
+  }
+  .arrow { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+  th { color: var(--muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .metric-value { font-family: var(--mono); font-size: 1.4rem; color: var(--accent); }
+  .metrics-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px; margin-top: 16px;
+  }
+  .metric-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px;
+  }
+  .metric-label { color: var(--muted); font-size: 0.82rem; margin-bottom: 6px; }
+  .demo-panel {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px; overflow-x: auto;
+  }
+  .demo-panel table { margin-top: 0; }
+  code, .mono { font-family: var(--mono); }
+  .note-ok { color: var(--accent); }
+  .note-diff { color: var(--accent2); }
+  .caption { color: var(--muted); font-size: 0.85rem; margin-top: 12px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>AITabs Pipeline</h1>
+  <p class="tagline">Audio → detected notes → mapped guitar tab. A research pipeline for automatic guitar transcription, built and evaluated end-to-end.</p>
+
+  <div class="badges">
+    <span class="badge">Python 3.11</span>
+    <span class="badge">Demucs + BasicPitch</span>
+    <span class="badge">Evaluated on GuitarSet (MIT)</span>
+    <span class="badge"><a href="https://github.com/c1prk/aitabs-pipeline-showcase">Source on GitHub →</a></span>
+  </div>
+
+  <section>
+    <h2>What it does</h2>
+    <p>Given a raw guitar recording, the pipeline isolates the guitar, detects individual notes with pitch and timing, and maps each note onto a specific string and fret — producing structured note data that can be exported to standard tab/MIDI formats.</p>
+    <div class="pipeline">
+      <div class="step">separate_guitar</div><div class="arrow">→</div>
+      <div class="step">detect_notes + detect_onsets</div><div class="arrow">→</div>
+      <div class="step">map_sequence (string/fret DP)</div><div class="arrow">→</div>
+      <div class="step">export (GP5 / MIDI)</div>
+    </div>
+    <p>Every note carries a consistent schema through the whole pipeline:</p>
+    <pre class="mono" style="background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:14px; overflow-x:auto;">{ start, end, pitch_midi, string, fret, confidence, source }</pre>
+  </section>
+
+  <section>
+    <h2>Accuracy (held-out eval)</h2>
+    <p class="caption">Measured on 20 held-out clips from <a href="https://guitarset.weebly.com/">GuitarSet</a> (MIT-licensed real-guitar recordings with hand-annotated ground truth) — never used for tuning.</p>
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Pitch F1</div>
+        <div class="metric-value">0.776</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Tab F1 (string + fret)</div>
+        <div class="metric-value">0.423</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Onset error (mean)</div>
+        <div class="metric-value">18 ms</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Held-out clips</div>
+        <div class="metric-value">20</div>
+      </div>
+    </div>
+    <p class="caption">Onset timing is already tight (~18ms mean error). The current bottleneck is string/fret assignment on notes that are playable in more than one fretboard position — visible in the example below — which is the active focus of the fingering-mapper work.</p>
+  </section>
+
+  <section>
+    <h2>Input → output example</h2>
+    <p>Real notes from one held-out clip: ground truth on the left, the pipeline's actual output on the right. Pitch and onset timing line up closely; string/fret choice diverges on notes with multiple valid fretboard positions.</p>
+    <div class="demo-panel">
+      <table>
+        <thead>
+          <tr><th>Ground truth (reference)</th><th>Pipeline output (prediction)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono note-ok">0.32s · string 2, fret 4 · F#3</td><td class="mono note-ok">0.31s · string 2, fret 4 · F#3</td></tr>
+          <tr><td class="mono">0.75s · string 3, fret 2 · A3</td><td class="mono note-diff">0.77s · string 2, fret 7 · A3</td></tr>
+          <tr><td class="mono">1.26s · string 4, fret 3 · D4</td><td class="mono note-diff">1.28s · string 2, fret 7 · A3</td></tr>
+          <tr><td class="mono">1.75s · string 5, fret 2 · F#4</td><td class="mono">1.28s · string 4, fret 3 · D4</td></tr>
+          <tr><td class="mono note-ok">2.29s · string 2, fret 4 · F#3</td><td class="mono note-diff">1.78s · string 2, fret 7 · A3</td></tr>
+          <tr><td class="mono">2.79s · string 3, fret 2 · A3</td><td class="mono note-diff">1.78s · string 4, fret 7 · F#4</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="caption">Same pitch, same rough timing, different string choice — the note F#3 and A3 in this passage can each be played in two fretboard positions, and the mapper doesn't yet have enough context to always pick the one the player actually used. This is exactly the kind of failure bucket <code>scripts/analyze_errors.py</code> surfaces, and it's what the current milestone targets.</p>
+  </section>
+
+  <section>
+    <h2>Engineering notes</h2>
+    <ul>
+      <li>Pluggable detector backend so BasicPitch variants (and future guitar-specialized models) can be A/B scored through the same eval harness.</li>
+      <li>Held-out eval set is never trained on; false-positive/false-negative buckets from <code>analyze_errors.py</code> drive every filter/threshold change, not intuition.</li>
+      <li>Rhythm/notation layer evaluated separately (position F1, note-value accuracy, tie handling, tempo-map behavior) since notated time and audio time diverge under rubato.</li>
+      <li>License-clean by design: training/eval data restricted to permissively-licensed sources (GuitarSet), no non-commercial dependencies.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Research pipeline for automatic guitar transcription. <a href="https://github.com/c1prk/aitabs-pipeline-showcase">View source →</a>
+  </footer>
+
+</div>
+</body>
+</html>

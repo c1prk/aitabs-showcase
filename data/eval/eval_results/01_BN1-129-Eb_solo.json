@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_BN1-129-Eb_solo",
+  "time_offset_sec": 0.020000000000000906,
+  "reference_bpm": 129.0,
+  "estimated_bpm": 129.0,
+  "ref_note_count": 61,
+  "pred_note_count": 28,
+  "pitch_precision": 0.8214285714285714,
+  "pitch_recall": 0.3770491803278688,
+  "pitch_f1": 0.5168539325842696,
+  "pitch_onset_mae_sec": 0.011426329075616248,
+  "tab_precision": 0.0,
+  "tab_recall": 0.0,
+  "tab_f1": 0.0
+}

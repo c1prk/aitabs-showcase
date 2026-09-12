@@ -1,0 +1,15 @@
+{
+  "clip_id": "02_Rock3-148-C_solo",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 148.0,
+  "estimated_bpm": 148.0,
+  "ref_note_count": 65,
+  "pred_note_count": 67,
+  "pitch_precision": 0.835820895522388,
+  "pitch_recall": 0.8615384615384616,
+  "pitch_f1": 0.8484848484848485,
+  "pitch_onset_mae_sec": 0.013055536184874638,
+  "tab_precision": 0.208955223880597,
+  "tab_recall": 0.2153846153846154,
+  "tab_f1": 0.21212121212121213
+}

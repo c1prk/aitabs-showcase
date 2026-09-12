@@ -1,0 +1,134 @@
+# Cursor Rules
+
+Cursor is the driver in this repository: use it for daily typing, inline edits,
+quick refactors, notebook work, and fast local iteration. Claude CLI and Codex are
+the manager/reviewer layer for background reviews, deep debugging, autonomous
+multi-file refactors, and token-limit fallback.
+
+Claude Code has the `codex@openai-codex` plugin installed and Codex CLI is set up.
+Use the concrete Claude commands when coordinating:
+
+- `/codex:transfer` when Claude is near token limits and Codex should continue.
+- `/codex:review --background` for background review while Cursor keeps moving.
+- `/codex:rescue --background <task>` for deep debugging or large autonomous work.
+- `/codex:status` to check active/recent Codex jobs.
+- `/codex:setup` only when Codex availability/auth needs to be rechecked.
+
+Always keep Cursor, Claude, and Codex aligned with the same project contracts.
+Before substantial edits, read `CLAUDE.md`, `CONTEXT.md`, `PLAN.md`,
+`RESEARCH_MODELS.md`, `RESEARCH_RHYTHM.md`, `LIVE_MODE.md`,
+`RECORDING_GUIDE.md`, and `INTEGRATION.md` as needed.
+
+## Project Context
+
+AITabs Pipeline is a Python 3.11+ research repo for guitar transcription:
+
+- audio separation and note detection in `aitabs/pipeline/audio`
+- string/fret mapping in `aitabs/pipeline/mapping`
+- future audio/vision fusion in `aitabs/pipeline/fusion`
+- vision stubs in `aitabs/pipeline/vision`
+- MIDI/GP5 export in `aitabs/export`
+- scoring and diagnostics in `aitabs/eval`
+- runnable workflows in `scripts`
+
+This repo is not the product web app. Do not add FastAPI, frontend code, upload
+flows, auth, or deployment logic here.
+
+## Non-Negotiable Contracts
+
+Preserve the product-facing note schema:
+
+- `start`
+- `end`
+- `pitch_midi`
+- `string`
+- `fret`
+- `confidence`
+- `source`
+
+The intended pipeline is:
+
+1. `separate_guitar`
+2. `detect_notes` plus `detect_onsets`
+3. optional vision frame loop
+4. `fuse` or `map_sequence` fallback
+5. GP5/MIDI export
+
+If you change these contracts, update docs and downstream callers in the same
+change. Do not let Cursor edits drift from `CLAUDE.md`.
+
+## Editing Style
+
+- Prefer focused edits that are easy for Claude/Codex to review.
+- Keep pure logic in package modules and side effects in scripts.
+- Match existing Python style: type hints, `TypedDict`, dataclasses, small helpers.
+- Avoid unrelated formatting churn.
+- Do not edit generated caches, `__pycache__`, local media, or eval output unless
+  the task explicitly needs it.
+- Keep docs and comments concise, technical, and current.
+
+## Research Priorities
+
+Work should generally support these priorities:
+
+1. Build and protect the owned five-clip held-out eval set.
+2. Run `analyze_errors.py` before adding pitch filters.
+3. Add a pluggable detector backend for BasicPitch/model A/B tests.
+4. Move toward Tier 2 fine-tuning and Tier 3 data/model scale.
+5. Validate rhythm notation on real audio without losing focus on upstream pitch.
+6. Add tempo-robust/rubato-aware evaluation where needed.
+
+The existing octave/harmonic suppression path is default-off because testing
+showed it hurt mean pitch F1. Do not turn it on globally without fresh evidence.
+
+## Licensing
+
+Keep the project commercially safe:
+
+- Do not add non-commercial dependencies or model assets.
+- Do not use `madmom`.
+- Prefer existing permissive dependencies.
+- Use GuitarSet freely under MIT; verify GOAT attribution before use.
+- Do not use GAPS/non-commercial data for product training.
+- Treat CC YouTube as unlabeled robustness/domain-diversity material only, not as
+  labeled ground truth. Do not redistribute downloaded media without legal review.
+- Treat third-party GP5 reference files as private eval data, not public assets.
+- Do not expand the copyrighted-data footprint.
+
+## Commands
+
+Use the local virtual environment when present.
+
+Common commands:
+
+```powershell
+pytest
+python scripts/smoke_audio.py data/your_clip.wav
+python scripts/check_recordings.py data/eval
+python scripts/eval_dataset.py data/eval --config data/eval/test1_best/best_combined.json --no-demucs --rhythm
+python scripts/eval_dataset.py data/eval/guitarset --guitarset
+python scripts/eval_dataset.py data/eval --config data/eval/test1_best/best_combined.json --no-demucs --dump-notes data/eval_results/notes
+python scripts/analyze_errors.py data/eval_results/notes
+python scripts/live_monitor.py --list-devices
+python scripts/live_monitor.py --plot
+```
+
+The user prefers RTK-prefixed commands for compact output. If `rtk` is available,
+prefix shell commands with `rtk`, including each command in a chain. If `rtk` is
+missing from PATH, use direct compact commands and note that RTK is unavailable.
+
+## Claude/Codex Handoff
+
+When Cursor work needs deeper review or an autonomous pass, leave enough context
+for Claude/Codex:
+
+- current goal
+- files touched
+- exact commands run
+- observed failures or metrics
+- next intended step
+
+If Claude hits token limits, Codex should resume from the same state by reading
+`CLAUDE.md`, this file, `CONTEXT.md`, and the current git diff. Prefer
+`/codex:transfer` before the window is exhausted so Codex receives the actual
+Claude session, not only a manual summary.

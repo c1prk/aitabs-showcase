@@ -1,0 +1,15 @@
+{
+  "clip_id": "04_SS3-84-Bb_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 84.0,
+  "estimated_bpm": 84.0,
+  "ref_note_count": 135,
+  "pred_note_count": 159,
+  "pitch_precision": 0.6666666666666666,
+  "pitch_recall": 0.7851851851851852,
+  "pitch_f1": 0.7210884353741498,
+  "pitch_onset_mae_sec": 0.019578184229669813,
+  "tab_precision": 0.2389937106918239,
+  "tab_recall": 0.2814814814814815,
+  "tab_f1": 0.2585034013605442
+}

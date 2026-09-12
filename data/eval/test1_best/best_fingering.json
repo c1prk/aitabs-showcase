@@ -1,0 +1,14 @@
+{
+  "mapper": "viterbi",
+  "string_cost": 1.0,
+  "fret_cost": 0.25,
+  "open_string_bonus": -0.2,
+  "max_fret_span": 4,
+  "span_base_penalty": 5.0,
+  "span_extra_penalty": 2.0,
+  "low_fret_penalty": 0.1,
+  "max_states_per_chord": 200,
+  "default_epsilon_sec": 0.04,
+  "use_bpm_chord_groups": true,
+  "ticks_per_beat": 4
+}

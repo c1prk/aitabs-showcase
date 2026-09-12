@@ -1,0 +1,25 @@
+{
+  "clip_id": "test9 (Kiki)",
+  "time_offset_sec": -0.049999999999999156,
+  "reference_bpm": 96.0,
+  "estimated_bpm": 96.0,
+  "ref_note_count": 872,
+  "pred_note_count": 888,
+  "pitch_precision": 0.8997747747747747,
+  "pitch_recall": 0.9162844036697247,
+  "pitch_f1": 0.9079545454545455,
+  "pitch_onset_mae_sec": 0.03569674039828843,
+  "tab_precision": 0.6813063063063063,
+  "tab_recall": 0.6938073394495413,
+  "tab_f1": 0.6874999999999999,
+  "rhythm": {
+    "clip_id": "test9 (Kiki)",
+    "metric_position_precision": 1.0,
+    "metric_position_recall": 0.9099836333878887,
+    "metric_position_f1": 0.9528706083976006,
+    "note_value_accuracy": 0.8902877697841727,
+    "rest_f1": 0.0,
+    "ref_attacks": 611,
+    "pred_attacks": 556
+  }
+}

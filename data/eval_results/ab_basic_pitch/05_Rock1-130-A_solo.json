@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_Rock1-130-A_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 130.0,
+  "estimated_bpm": 130.0,
+  "ref_note_count": 60,
+  "pred_note_count": 65,
+  "pitch_precision": 0.8615384615384616,
+  "pitch_recall": 0.9333333333333333,
+  "pitch_f1": 0.8960000000000001,
+  "pitch_onset_mae_sec": 0.01358148874934607,
+  "tab_precision": 0.046153846153846156,
+  "tab_recall": 0.05,
+  "tab_f1": 0.048
+}

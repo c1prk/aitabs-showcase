@@ -1,0 +1,15 @@
+{
+  "clip_id": "04_BN3-154-E_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 154.0,
+  "estimated_bpm": 154.0,
+  "ref_note_count": 84,
+  "pred_note_count": 25,
+  "pitch_precision": 0.8,
+  "pitch_recall": 0.23809523809523808,
+  "pitch_f1": 0.36697247706422015,
+  "pitch_onset_mae_sec": 0.01540462172748649,
+  "tab_precision": 0.12,
+  "tab_recall": 0.03571428571428571,
+  "tab_f1": 0.055045871559633024
+}

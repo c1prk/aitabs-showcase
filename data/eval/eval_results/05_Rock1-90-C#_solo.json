@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_Rock1-90-C#_solo",
+  "time_offset_sec": 0.020000000000000906,
+  "reference_bpm": 90.0,
+  "estimated_bpm": 90.0,
+  "ref_note_count": 99,
+  "pred_note_count": 42,
+  "pitch_precision": 0.7857142857142857,
+  "pitch_recall": 0.3333333333333333,
+  "pitch_f1": 0.4680851063829786,
+  "pitch_onset_mae_sec": 0.017809358895074318,
+  "tab_precision": 0.40476190476190477,
+  "tab_recall": 0.1717171717171717,
+  "tab_f1": 0.24113475177304963
+}

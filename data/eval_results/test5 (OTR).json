@@ -1,0 +1,25 @@
+{
+  "clip_id": "test5 (OTR)",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 95.0,
+  "estimated_bpm": 95.0,
+  "ref_note_count": 252,
+  "pred_note_count": 339,
+  "pitch_precision": 0.25073746312684364,
+  "pitch_recall": 0.3373015873015873,
+  "pitch_f1": 0.2876480541455161,
+  "pitch_onset_mae_sec": 0.010184400497044993,
+  "tab_precision": 0.20353982300884957,
+  "tab_recall": 0.27380952380952384,
+  "tab_f1": 0.23350253807106602,
+  "rhythm": {
+    "clip_id": "test5 (OTR)",
+    "metric_position_precision": 0.6885245901639344,
+    "metric_position_recall": 0.8842105263157894,
+    "metric_position_f1": 0.7741935483870968,
+    "note_value_accuracy": 0.8809523809523809,
+    "rest_f1": 1.0,
+    "ref_attacks": 190,
+    "pred_attacks": 244
+  }
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "aitabs"
+version = "0.1.0"
+description = "AITabs ML pipeline research — audio, vision, fusion, mapping"
+requires-python = ">=3.11,<3.13"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aitabs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

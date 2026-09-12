@@ -1,0 +1,25 @@
+{
+  "clip_id": "test8 (River Flows in You)",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 120.0,
+  "estimated_bpm": 120.0,
+  "ref_note_count": 839,
+  "pred_note_count": 817,
+  "pitch_precision": 0.9339045287637698,
+  "pitch_recall": 0.9094159713945172,
+  "pitch_f1": 0.9214975845410628,
+  "pitch_onset_mae_sec": 0.005450620982339422,
+  "tab_precision": 0.7441860465116279,
+  "tab_recall": 0.7246722288438617,
+  "tab_f1": 0.7342995169082126,
+  "rhythm": {
+    "clip_id": "test8 (River Flows in You)",
+    "metric_position_precision": 0.9966996699669967,
+    "metric_position_recall": 0.9710610932475884,
+    "metric_position_f1": 0.9837133550488598,
+    "note_value_accuracy": 0.9701986754966887,
+    "rest_f1": 0.0,
+    "ref_attacks": 622,
+    "pred_attacks": 606
+  }
+}

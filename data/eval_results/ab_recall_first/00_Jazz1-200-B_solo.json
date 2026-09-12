@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_Jazz1-200-B_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 200.0,
+  "estimated_bpm": 200.0,
+  "ref_note_count": 53,
+  "pred_note_count": 70,
+  "pitch_precision": 0.5,
+  "pitch_recall": 0.660377358490566,
+  "pitch_f1": 0.5691056910569106,
+  "pitch_onset_mae_sec": 0.010738798185931521,
+  "tab_precision": 0.12857142857142856,
+  "tab_recall": 0.16981132075471697,
+  "tab_f1": 0.14634146341463414
+}

@@ -1,0 +1,25 @@
+{
+  "clip_id": "test3 (Claude de Lune)",
+  "time_offset_sec": 0.5800000000000014,
+  "reference_bpm": 80.0,
+  "estimated_bpm": 80.0,
+  "ref_note_count": 1046,
+  "pred_note_count": 1004,
+  "pitch_precision": 0.5418326693227091,
+  "pitch_recall": 0.5200764818355641,
+  "pitch_f1": 0.5307317073170732,
+  "pitch_onset_mae_sec": 0.031106590136052534,
+  "tab_precision": 0.300796812749004,
+  "tab_recall": 0.2887189292543021,
+  "tab_f1": 0.2946341463414634,
+  "rhythm": {
+    "clip_id": "test3 (Claude de Lune)",
+    "metric_position_precision": 0.6266094420600858,
+    "metric_position_recall": 0.46570972886762363,
+    "metric_position_f1": 0.5343092406221408,
+    "note_value_accuracy": 0.3219178082191781,
+    "rest_f1": 0.0,
+    "ref_attacks": 627,
+    "pred_attacks": 466
+  }
+}

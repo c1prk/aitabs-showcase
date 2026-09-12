@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_Funk1-114-Ab_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 114.0,
+  "estimated_bpm": 114.0,
+  "ref_note_count": 60,
+  "pred_note_count": 75,
+  "pitch_precision": 0.5333333333333333,
+  "pitch_recall": 0.6666666666666666,
+  "pitch_f1": 0.5925925925925926,
+  "pitch_onset_mae_sec": 0.023089970760242017,
+  "tab_precision": 0.25333333333333335,
+  "tab_recall": 0.31666666666666665,
+  "tab_f1": 0.28148148148148144
+}

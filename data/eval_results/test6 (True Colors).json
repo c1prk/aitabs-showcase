@@ -1,0 +1,25 @@
+{
+  "clip_id": "test6 (True Colors)",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 150.0,
+  "estimated_bpm": 150.0,
+  "ref_note_count": 711,
+  "pred_note_count": 745,
+  "pitch_precision": 0.8859060402684564,
+  "pitch_recall": 0.9282700421940928,
+  "pitch_f1": 0.9065934065934066,
+  "pitch_onset_mae_sec": 0.0201524625850582,
+  "tab_precision": 0.7261744966442953,
+  "tab_recall": 0.7609001406469761,
+  "tab_f1": 0.7431318681318682,
+  "rhythm": {
+    "clip_id": "test6 (True Colors)",
+    "metric_position_precision": 0.9974093264248705,
+    "metric_position_recall": 0.9922680412371134,
+    "metric_position_f1": 0.9948320413436693,
+    "note_value_accuracy": 0.9896103896103896,
+    "rest_f1": 0.25,
+    "ref_attacks": 388,
+    "pred_attacks": 386
+  }
+}

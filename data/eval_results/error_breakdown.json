@@ -1,0 +1,277 @@
+{
+  "false_positives": {
+    "clips": [
+      {
+        "clip_id": "test1",
+        "n_ref": 794,
+        "n_pred": 783,
+        "n_matched": 614,
+        "n_false": 169,
+        "octave": 78,
+        "fifth_or_twelfth": 28,
+        "duplicate_sustain": 25,
+        "other_concurrent": 38,
+        "isolated": 0
+      },
+      {
+        "clip_id": "test10 (WY)",
+        "n_ref": 39,
+        "n_pred": 35,
+        "n_matched": 16,
+        "n_false": 19,
+        "octave": 1,
+        "fifth_or_twelfth": 3,
+        "duplicate_sustain": 0,
+        "other_concurrent": 11,
+        "isolated": 4
+      },
+      {
+        "clip_id": "test11 (My Fav)",
+        "n_ref": 302,
+        "n_pred": 353,
+        "n_matched": 166,
+        "n_false": 187,
+        "octave": 28,
+        "fifth_or_twelfth": 23,
+        "duplicate_sustain": 4,
+        "other_concurrent": 53,
+        "isolated": 79
+      },
+      {
+        "clip_id": "test12 (Coco)",
+        "n_ref": 279,
+        "n_pred": 283,
+        "n_matched": 213,
+        "n_false": 70,
+        "octave": 28,
+        "fifth_or_twelfth": 10,
+        "duplicate_sustain": 3,
+        "other_concurrent": 29,
+        "isolated": 0
+      },
+      {
+        "clip_id": "test3 (Claude de Lune)",
+        "n_ref": 1046,
+        "n_pred": 1004,
+        "n_matched": 544,
+        "n_false": 460,
+        "octave": 60,
+        "fifth_or_twelfth": 76,
+        "duplicate_sustain": 68,
+        "other_concurrent": 202,
+        "isolated": 54
+      },
+      {
+        "clip_id": "test4 (Fur Elise)",
+        "n_ref": 953,
+        "n_pred": 736,
+        "n_matched": 552,
+        "n_false": 184,
+        "octave": 8,
+        "fifth_or_twelfth": 6,
+        "duplicate_sustain": 136,
+        "other_concurrent": 34,
+        "isolated": 0
+      },
+      {
+        "clip_id": "test5 (OTR)",
+        "n_ref": 252,
+        "n_pred": 339,
+        "n_matched": 85,
+        "n_false": 254,
+        "octave": 40,
+        "fifth_or_twelfth": 34,
+        "duplicate_sustain": 1,
+        "other_concurrent": 104,
+        "isolated": 75
+      },
+      {
+        "clip_id": "test6 (True Colors)",
+        "n_ref": 711,
+        "n_pred": 745,
+        "n_matched": 660,
+        "n_false": 85,
+        "octave": 24,
+        "fifth_or_twelfth": 8,
+        "duplicate_sustain": 19,
+        "other_concurrent": 30,
+        "isolated": 4
+      },
+      {
+        "clip_id": "test7 (Let Her Go)",
+        "n_ref": 818,
+        "n_pred": 1134,
+        "n_matched": 197,
+        "n_false": 937,
+        "octave": 44,
+        "fifth_or_twelfth": 159,
+        "duplicate_sustain": 28,
+        "other_concurrent": 423,
+        "isolated": 283
+      },
+      {
+        "clip_id": "test8 (River Flows in You)",
+        "n_ref": 839,
+        "n_pred": 817,
+        "n_matched": 763,
+        "n_false": 54,
+        "octave": 3,
+        "fifth_or_twelfth": 14,
+        "duplicate_sustain": 5,
+        "other_concurrent": 30,
+        "isolated": 2
+      },
+      {
+        "clip_id": "test9 (Kiki)",
+        "n_ref": 872,
+        "n_pred": 888,
+        "n_matched": 799,
+        "n_false": 89,
+        "octave": 23,
+        "fifth_or_twelfth": 10,
+        "duplicate_sustain": 32,
+        "other_concurrent": 23,
+        "isolated": 1
+      }
+    ],
+    "aggregate": {
+      "octave": 337,
+      "fifth_or_twelfth": 371,
+      "duplicate_sustain": 321,
+      "other_concurrent": 977,
+      "isolated": 502
+    }
+  },
+  "misses": {
+    "clips": [
+      {
+        "clip_id": "test1",
+        "n_ref": 794,
+        "n_matched": 614,
+        "n_missed": 180,
+        "chord_inner": 110,
+        "masked_by_sustain": 0,
+        "octave_clash": 8,
+        "low_register": 9,
+        "isolated": 53
+      },
+      {
+        "clip_id": "test10 (WY)",
+        "n_ref": 39,
+        "n_matched": 16,
+        "n_missed": 23,
+        "chord_inner": 6,
+        "masked_by_sustain": 0,
+        "octave_clash": 0,
+        "low_register": 1,
+        "isolated": 16
+      },
+      {
+        "clip_id": "test11 (My Fav)",
+        "n_ref": 302,
+        "n_matched": 166,
+        "n_missed": 136,
+        "chord_inner": 63,
+        "masked_by_sustain": 0,
+        "octave_clash": 18,
+        "low_register": 6,
+        "isolated": 49
+      },
+      {
+        "clip_id": "test12 (Coco)",
+        "n_ref": 279,
+        "n_matched": 213,
+        "n_missed": 66,
+        "chord_inner": 42,
+        "masked_by_sustain": 0,
+        "octave_clash": 0,
+        "low_register": 0,
+        "isolated": 24
+      },
+      {
+        "clip_id": "test3 (Claude de Lune)",
+        "n_ref": 1046,
+        "n_matched": 544,
+        "n_missed": 502,
+        "chord_inner": 55,
+        "masked_by_sustain": 0,
+        "octave_clash": 24,
+        "low_register": 87,
+        "isolated": 336
+      },
+      {
+        "clip_id": "test4 (Fur Elise)",
+        "n_ref": 953,
+        "n_matched": 552,
+        "n_missed": 401,
+        "chord_inner": 44,
+        "masked_by_sustain": 0,
+        "octave_clash": 10,
+        "low_register": 53,
+        "isolated": 294
+      },
+      {
+        "clip_id": "test5 (OTR)",
+        "n_ref": 252,
+        "n_matched": 85,
+        "n_missed": 167,
+        "chord_inner": 17,
+        "masked_by_sustain": 0,
+        "octave_clash": 10,
+        "low_register": 22,
+        "isolated": 118
+      },
+      {
+        "clip_id": "test6 (True Colors)",
+        "n_ref": 711,
+        "n_matched": 660,
+        "n_missed": 51,
+        "chord_inner": 31,
+        "masked_by_sustain": 0,
+        "octave_clash": 0,
+        "low_register": 5,
+        "isolated": 15
+      },
+      {
+        "clip_id": "test7 (Let Her Go)",
+        "n_ref": 818,
+        "n_matched": 197,
+        "n_missed": 621,
+        "chord_inner": 51,
+        "masked_by_sustain": 0,
+        "octave_clash": 24,
+        "low_register": 109,
+        "isolated": 437
+      },
+      {
+        "clip_id": "test8 (River Flows in You)",
+        "n_ref": 839,
+        "n_matched": 763,
+        "n_missed": 76,
+        "chord_inner": 20,
+        "masked_by_sustain": 0,
+        "octave_clash": 0,
+        "low_register": 9,
+        "isolated": 47
+      },
+      {
+        "clip_id": "test9 (Kiki)",
+        "n_ref": 872,
+        "n_matched": 799,
+        "n_missed": 73,
+        "chord_inner": 13,
+        "masked_by_sustain": 0,
+        "octave_clash": 0,
+        "low_register": 8,
+        "isolated": 52
+      }
+    ],
+    "aggregate": {
+      "chord_inner": 452,
+      "masked_by_sustain": 0,
+      "octave_clash": 94,
+      "low_register": 309,
+      "isolated": 1441
+    }
+  }
+}

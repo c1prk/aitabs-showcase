@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_Jazz2-187-F#_solo",
+  "time_offset_sec": 8.881784197001252e-16,
+  "reference_bpm": 187.0,
+  "estimated_bpm": 187.0,
+  "ref_note_count": 100,
+  "pred_note_count": 60,
+  "pitch_precision": 0.6833333333333333,
+  "pitch_recall": 0.41,
+  "pitch_f1": 0.5125000000000001,
+  "pitch_onset_mae_sec": 0.024530876415577753,
+  "tab_precision": 0.1,
+  "tab_recall": 0.06,
+  "tab_f1": 0.075
+}

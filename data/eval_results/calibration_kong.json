@@ -1,0 +1,611 @@
+{
+  "model": "kong",
+  "best": {
+    "onset": 0.2,
+    "frame": 0.1,
+    "conf": 0.3,
+    "pitch_f1": 0.5369
+  },
+  "grid": [
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.1,
+      "pitch_f1": 0.5358
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.5365
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.3,
+      "pitch_f1": 0.5369
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.5217
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.4714
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.1,
+      "pitch_f1": 0.5314
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.532
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.3,
+      "pitch_f1": 0.5325
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.5165
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.4636
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.1,
+      "pitch_f1": 0.5256
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.5259
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.3,
+      "pitch_f1": 0.5256
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.5091
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.4566
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.4,
+      "conf": 0.1,
+      "pitch_f1": 0.5228
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.4,
+      "conf": 0.2,
+      "pitch_f1": 0.5231
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.4,
+      "conf": 0.3,
+      "pitch_f1": 0.5228
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.4,
+      "conf": 0.42,
+      "pitch_f1": 0.5059
+    },
+    {
+      "onset": 0.2,
+      "frame": 0.4,
+      "conf": 0.5,
+      "pitch_f1": 0.4532
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.1,
+      "pitch_f1": 0.5204
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.5209
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.3,
+      "pitch_f1": 0.5208
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.5051
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.4551
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.1,
+      "pitch_f1": 0.5201
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.5206
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.3,
+      "pitch_f1": 0.5206
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.5043
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.452
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.1,
+      "pitch_f1": 0.5174
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.5177
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.3,
+      "pitch_f1": 0.5169
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.5004
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.4471
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.4,
+      "conf": 0.1,
+      "pitch_f1": 0.5164
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.4,
+      "conf": 0.2,
+      "pitch_f1": 0.5167
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.4,
+      "conf": 0.3,
+      "pitch_f1": 0.516
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.4,
+      "conf": 0.42,
+      "pitch_f1": 0.4991
+    },
+    {
+      "onset": 0.3,
+      "frame": 0.4,
+      "conf": 0.5,
+      "pitch_f1": 0.4459
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.1,
+      "pitch_f1": 0.4992
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.4997
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.3,
+      "pitch_f1": 0.4996
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.4862
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.4371
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.1,
+      "pitch_f1": 0.5014
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.5019
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.3,
+      "pitch_f1": 0.5018
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.4877
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.4366
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.1,
+      "pitch_f1": 0.4991
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.4993
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.3,
+      "pitch_f1": 0.4986
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.4843
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.4321
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.4,
+      "conf": 0.1,
+      "pitch_f1": 0.4994
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.4,
+      "conf": 0.2,
+      "pitch_f1": 0.4997
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.4,
+      "conf": 0.3,
+      "pitch_f1": 0.4989
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.4,
+      "conf": 0.42,
+      "pitch_f1": 0.4846
+    },
+    {
+      "onset": 0.4,
+      "frame": 0.4,
+      "conf": 0.5,
+      "pitch_f1": 0.4315
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.1,
+      "pitch_f1": 0.4798
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.4801
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.3,
+      "pitch_f1": 0.4797
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.4678
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.419
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.1,
+      "pitch_f1": 0.4813
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.4817
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.3,
+      "pitch_f1": 0.4812
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.469
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.4189
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.1,
+      "pitch_f1": 0.4792
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.4793
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.3,
+      "pitch_f1": 0.4784
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.4659
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.4148
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.4,
+      "conf": 0.1,
+      "pitch_f1": 0.4793
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.4,
+      "conf": 0.2,
+      "pitch_f1": 0.4795
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.4,
+      "conf": 0.3,
+      "pitch_f1": 0.4785
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.4,
+      "conf": 0.42,
+      "pitch_f1": 0.4657
+    },
+    {
+      "onset": 0.5,
+      "frame": 0.4,
+      "conf": 0.5,
+      "pitch_f1": 0.4139
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.1,
+      "pitch_f1": 0.454
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.2,
+      "pitch_f1": 0.4543
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.3,
+      "pitch_f1": 0.4538
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.42,
+      "pitch_f1": 0.4429
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.1,
+      "conf": 0.5,
+      "pitch_f1": 0.3982
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.1,
+      "pitch_f1": 0.455
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.2,
+      "pitch_f1": 0.4553
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.3,
+      "pitch_f1": 0.4548
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.42,
+      "pitch_f1": 0.4435
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.2,
+      "conf": 0.5,
+      "pitch_f1": 0.3977
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.1,
+      "pitch_f1": 0.4551
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.2,
+      "pitch_f1": 0.4552
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.3,
+      "pitch_f1": 0.4542
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.42,
+      "pitch_f1": 0.4428
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.3,
+      "conf": 0.5,
+      "pitch_f1": 0.3963
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.4,
+      "conf": 0.1,
+      "pitch_f1": 0.4552
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.4,
+      "conf": 0.2,
+      "pitch_f1": 0.4554
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.4,
+      "conf": 0.3,
+      "pitch_f1": 0.4544
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.4,
+      "conf": 0.42,
+      "pitch_f1": 0.4426
+    },
+    {
+      "onset": 0.6,
+      "frame": 0.4,
+      "conf": 0.5,
+      "pitch_f1": 0.3957
+    }
+  ]
+}

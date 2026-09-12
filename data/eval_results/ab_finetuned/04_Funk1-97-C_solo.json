@@ -1,0 +1,15 @@
+{
+  "clip_id": "04_Funk1-97-C_solo",
+  "time_offset_sec": -0.02999999999999914,
+  "reference_bpm": 97.0,
+  "estimated_bpm": 97.0,
+  "ref_note_count": 111,
+  "pred_note_count": 101,
+  "pitch_precision": 0.8613861386138614,
+  "pitch_recall": 0.7837837837837838,
+  "pitch_f1": 0.8207547169811322,
+  "pitch_onset_mae_sec": 0.02186266849276479,
+  "tab_precision": 0.1485148514851485,
+  "tab_recall": 0.13513513513513514,
+  "tab_f1": 0.14150943396226415
+}

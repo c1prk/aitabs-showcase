@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_SS1-68-E_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 68.0,
+  "estimated_bpm": 68.0,
+  "ref_note_count": 78,
+  "pred_note_count": 89,
+  "pitch_precision": 0.6179775280898876,
+  "pitch_recall": 0.7051282051282052,
+  "pitch_f1": 0.6586826347305389,
+  "pitch_onset_mae_sec": 0.019274623788907163,
+  "tab_precision": 0.10112359550561797,
+  "tab_recall": 0.11538461538461539,
+  "tab_f1": 0.10778443113772455
+}

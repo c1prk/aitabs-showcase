@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_BN2-131-B_solo",
+  "time_offset_sec": -0.01999999999999913,
+  "reference_bpm": 131.0,
+  "estimated_bpm": 131.0,
+  "ref_note_count": 69,
+  "pred_note_count": 83,
+  "pitch_precision": 0.6867469879518072,
+  "pitch_recall": 0.8260869565217391,
+  "pitch_f1": 0.75,
+  "pitch_onset_mae_sec": 0.018317608270052858,
+  "tab_precision": 0.08433734939759036,
+  "tab_recall": 0.10144927536231885,
+  "tab_f1": 0.09210526315789473
+}

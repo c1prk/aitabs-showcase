@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_SS1-100-C#_solo",
+  "time_offset_sec": 0.010000000000000897,
+  "reference_bpm": 100.0,
+  "estimated_bpm": 100.0,
+  "ref_note_count": 128,
+  "pred_note_count": 129,
+  "pitch_precision": 0.7906976744186046,
+  "pitch_recall": 0.796875,
+  "pitch_f1": 0.7937743190661478,
+  "pitch_onset_mae_sec": 0.013304913076346314,
+  "tab_precision": 0.046511627906976744,
+  "tab_recall": 0.046875,
+  "tab_f1": 0.04669260700389105
+}

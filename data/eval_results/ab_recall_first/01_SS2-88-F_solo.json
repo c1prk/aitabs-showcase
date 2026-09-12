@@ -1,0 +1,15 @@
+{
+  "clip_id": "01_SS2-88-F_solo",
+  "time_offset_sec": 0.020000000000000906,
+  "reference_bpm": 88.0,
+  "estimated_bpm": 88.0,
+  "ref_note_count": 154,
+  "pred_note_count": 166,
+  "pitch_precision": 0.6204819277108434,
+  "pitch_recall": 0.6688311688311688,
+  "pitch_f1": 0.64375,
+  "pitch_onset_mae_sec": 0.0193115278002958,
+  "tab_precision": 0.14457831325301204,
+  "tab_recall": 0.15584415584415584,
+  "tab_f1": 0.15000000000000002
+}

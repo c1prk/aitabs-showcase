@@ -1,0 +1,15 @@
+{
+  "clip_id": "00_SS2-107-Ab_solo",
+  "time_offset_sec": -0.00999999999999912,
+  "reference_bpm": 107.0,
+  "estimated_bpm": 107.0,
+  "ref_note_count": 116,
+  "pred_note_count": 222,
+  "pitch_precision": 0.4594594594594595,
+  "pitch_recall": 0.8793103448275862,
+  "pitch_f1": 0.6035502958579881,
+  "pitch_onset_mae_sec": 0.017376948037783706,
+  "tab_precision": 0.28378378378378377,
+  "tab_recall": 0.5431034482758621,
+  "tab_f1": 0.37278106508875736
+}

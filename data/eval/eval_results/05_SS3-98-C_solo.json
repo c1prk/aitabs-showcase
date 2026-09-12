@@ -1,0 +1,15 @@
+{
+  "clip_id": "05_SS3-98-C_solo",
+  "time_offset_sec": 0.020000000000000906,
+  "reference_bpm": 98.0,
+  "estimated_bpm": 98.0,
+  "ref_note_count": 93,
+  "pred_note_count": 28,
+  "pitch_precision": 0.5357142857142857,
+  "pitch_recall": 0.16129032258064516,
+  "pitch_f1": 0.24793388429752067,
+  "pitch_onset_mae_sec": 0.021856840513981624,
+  "tab_precision": 0.0,
+  "tab_recall": 0.0,
+  "tab_f1": 0.0
+}
